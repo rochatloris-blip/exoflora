@@ -1,6 +1,6 @@
 name = "exoflora"
 compatibility_date = "2026-07-12"
-pages_build_output_dir = "./dist"
+main = "./dist/_worker.js"
 
 [build]
 command = "npm run build"
