@@ -1,4 +1,8 @@
-* { box-sizing: border-box; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 html, body { min-height: 100%; margin: 0; background: #050505; }
 body { overflow-x: hidden; letter-spacing: -0.02em; font-family: "Inter", sans-serif; color: #fff; }
