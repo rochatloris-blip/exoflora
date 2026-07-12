@@ -1,0 +1,32 @@
+<nav class="floating-nav fixed left-1/2 top-5 z-[100] flex w-[calc(100%-32px)] max-w-6xl -translate-x-1/2 items-center justify-between rounded-full border border-white/15 bg-black/35 px-4 py-3 backdrop-blur-2xl sm:px-5 md:px-6" aria-label="Main navigation">
+  <a href="#" class="group flex items-center gap-3 text-white" aria-label="Exoflora home">
+    <span class="flex h-10 w-10 items-center justify-center transition-all duration-300 group-hover:scale-105">
+      <svg width="30" height="30" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="text-white drop-shadow-[0_3px_18px_rgba(0,0,0,0.35)]">
+        <defs><linearGradient id="exofloraMark" x1="64" y1="42" x2="188" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#ffffff"></stop><stop offset="1" stop-color="#bfeeff"></stop></linearGradient></defs>
+        <ellipse cx="128" cy="128" rx="94" ry="32" stroke="currentColor" stroke-width="8" opacity="0.45" transform="rotate(-18 128 128)"></ellipse>
+        <ellipse cx="128" cy="128" rx="86" ry="28" stroke="currentColor" stroke-width="6" opacity="0.26" transform="rotate(22 128 128)"></ellipse>
+        <path d="M128 38C151 70 151 99 128 126C105 99 105 70 128 38Z" fill="url(#exofloraMark)"></path>
+        <path d="M74 98C108 96 129 115 126 149C93 149 74 130 74 98Z" fill="url(#exofloraMark)" opacity="0.82"></path>
+        <path d="M182 98C148 96 127 115 130 149C163 149 182 130 182 98Z" fill="url(#exofloraMark)" opacity="0.82"></path>
+        <path d="M102 158C118 136 138 136 154 158C141 178 115 178 102 158Z" fill="url(#exofloraMark)" opacity="0.95"></path>
+        <circle cx="128" cy="145" r="9" fill="#ffffff" opacity="0.75"></circle><circle cx="196" cy="78" r="7" fill="#bfeeff"></circle>
+      </svg>
+    </span>
+    <span class="flex flex-col leading-none">
+      <span class="font-playfair text-2xl italic tracking-tight">Exoflora</span>
+      <span class="mt-1 hidden text-[9px] font-semibold uppercase tracking-[0.28em] text-white/75 sm:block">Future Botanics</span>
+    </span>
+  </a>
+
+  <div class="hidden items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-2 py-2 md:flex" aria-label="Primary links">
+    <a href="#scents" class="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm">Scents</a>
+    <a href="#field-notes" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white">Field Notes</a>
+    <a href="#vision" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white">Vision</a>
+    <a href="#faq" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white">FAQ</a>
+  </div>
+
+  <a href="#reserve" class="hidden rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.16)] transition-all duration-300 hover:border-white/40 hover:bg-white/20 md:inline-flex">Shop</a>
+  <button class="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur-xl md:hidden" type="button" aria-label="Open menu">
+    <iconify-icon icon="solar:hamburger-menu-linear" width="26" height="26" aria-hidden="true"></iconify-icon>
+  </button>
+</nav>

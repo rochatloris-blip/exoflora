@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LoadIntro from "../components/LoadIntro.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import StoryScroll from "../components/StoryScroll.astro";
+import Manifesto from "../components/Manifesto.astro";
+import CinemaScroll from "../components/CinemaScroll.astro";
+import GatherScroll from "../components/GatherScroll.astro";
+import ArchiveScroll from "../components/ArchiveScroll.astro";
+import Products from "../components/Products.astro";
+import Vision from "../components/Vision.astro";
+import ScentArchitecture from "../components/ScentArchitecture.astro";
+import FieldNotes from "../components/FieldNotes.astro";
+import CTA from "../components/CTA.astro";
+import FAQ from "../components/FAQ.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout>
+  <LoadIntro />
+  <Header />
+  <main class="min-h-screen bg-black">
+    <Hero />
+    <div class="site-bg text-white">
+      <div class="content-layer">
+        <StoryScroll />
+        <Manifesto />
+        <CinemaScroll />
+        <GatherScroll />
+        <ArchiveScroll />
+        <Products />
+        <Vision />
+        <ScentArchitecture />
+        <FieldNotes />
+        <CTA />
+        <FAQ />
+        <Footer />
+      </div>
+    </div>
+  </main>
+</Layout>
