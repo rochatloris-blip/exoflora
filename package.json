@@ -6,11 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "deploy": "npx wrangler pages deploy ./dist --project-name exoflora"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.7.0",
-    "@astrojs/cloudflare": "^12.3.0"
+    "astro": "^5.7.0"
   }
 }

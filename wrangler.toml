@@ -1,6 +1,0 @@
-name = "exoflora"
-compatibility_date = "2026-07-12"
-main = "./dist/_worker.js/index.js"
-
-[build]
-command = "npm run build"
